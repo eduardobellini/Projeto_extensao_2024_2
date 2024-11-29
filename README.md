@@ -17,7 +17,7 @@ Muitas pessoas querem uma facilidade maior na hora de fazer um agendamento de co
 
 Aqui são apresentadas toda a documentação que foi construída no perído de construção do projeto.
 
-Link para os documentos:
+Link para os documentos:https://docs.google.com/document/d/1SoD54vBXoNf33UKeDnmsNmRHpDHnT0ZjiCxcfLAVYD4/edit?usp=sharing (https://trello.com/b/4MBIisQW/projeto-do-figma) (https://www.figma.com/proto/bWRTVlfn7YOEGkgXOYYlsX/Barbearia?node-id=68-276&t=51KG8nC40hpZjoB9-1)
 
 
 ## Linguagens utilizadas
@@ -34,9 +34,11 @@ JavaScript
 
 *GitHub:* 
 
-*Trello:* (https://trello.com/b/4MBIisQW/projeto-do-figma)
+*Trello:*
 
-*Figma:* (https://www.figma.com/proto/bWRTVlfn7YOEGkgXOYYlsX/Barbearia?node-id=68-276&t=51KG8nC40hpZjoB9-1)
+*Figma:* 
+
+*XAMPP*
 
 
 ## Instalação
