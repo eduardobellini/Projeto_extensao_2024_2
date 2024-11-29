@@ -5,9 +5,9 @@
  
 Muitas pessoas querem uma facilidade maior na hora de fazer um agendamento de corte de cabelo, até mesmo fazer uma compra de produtos, esse é o intuito do nosso site.
 
- Objetivos:
+Objetivos:
  
-1.Facilitar agendamentos de cortes de cabelo.
+1. Facilitar agendamentos de cortes de cabelo.
 
 2. Facilitar a compra de produtos de cabelos, como maquininhas para corte, gel de cabelo, shampoos.
    
@@ -43,7 +43,7 @@ JavaScript
 
 ## Instalação
 
-
+Primeiramente, aperte no botão code para copiar o link e fazer o clone e o git commit dentro do viusal code, quando estiver com o código comece pelo index.html, aperte em cadastro para se cadastrar, depois clique em máquinas na tela de serviços, aperte em comprar a primeira máquina, o próximo passo é apertar em comprar, finalizar a compra e colocar seus "dados" do cartao, voce tambem pode mudar o estilo de pagamento, na parte de serviços existe a área de cortes, escolha o primeiro aperte no barbeiro Eduardo, escolha o primeiro horario e terá seu horário marcado.
 
 ##
 
