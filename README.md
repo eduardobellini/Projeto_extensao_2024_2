@@ -7,7 +7,9 @@ Muitas pessoas querem uma facilidade maior na hora de fazer um agendamento de co
 
  Objetivos:
 1.Facilitar agendamentos de cortes de cabelo.
+
 2. Facilitar a compra de produtos de cabelos, como maquininhas para corte, gel de cabelo, shampoos.
+   
 3. Facilitar a vida do cliente no dia a dia.
 
 ## Documentação
