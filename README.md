@@ -13,6 +13,24 @@ Objetivos:
    
 3. Facilitar a vida do cliente no dia a dia.
 
+## Funcionalidades
+
+1.Área de login
+
+2.Cadastro
+
+3.Lista de serviços
+
+4.Lista de Produtos
+
+5.Cortes
+
+6.Agendamento
+
+7.Forma de pagamento
+
+8.Nota Fiscal
+
 ## Documentação
 
 Aqui são apresentadas toda a documentação que foi construída no perído de construção do projeto.
