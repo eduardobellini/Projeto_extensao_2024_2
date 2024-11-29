@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação de Pagamento</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            background-color: #1f1f1f;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .header i {
+            font-size: 24px;
+            color: #4caf50;
+            margin-right: 10px;
+        }
+        .header h1 {
+            font-size: 18px;
+            color: #4caf50;
+            margin: 0;
+        }
+        .content {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .content h2 {
+            font-size: 28px;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+        .details {
+            background-color: #1f1f1f;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .details table {
+            width: 100%;
+            color: #f4f4f4;
+        }
+        .details th, .details td {
+            text-align: left;
+            padding: 8px 0;
+        }
+        .details th {
+            font-weight: bold;
+        }
+        .details td {
+            text-align: right;
+        }
+        .message {
+            margin: 20px 0;
+            font-style: italic;
+        }
+        .footer {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 14px;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+        @media (max-width: 600px) {
+            .header, .details, .content h2 {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <i class="fas fa-check-circle"></i>
+            <h1>PAGAMENTO CONFIRMADO!</h1>
+        </div>
+        <div class="content">
+            <h2>Detalhes do Pedido</h2>
+            <div class="details">
+                <table>
+                    <tr>
+                        <th>Número do Pedido:</th>
+                        <td>#168329</td>
+                    </tr>
+                    <tr>
+                        <th>Produto Adquirido:</th>
+                        <td>Máquina de Cortar Cabelo Wmark MG3038</td>
+                    </tr>
+                    <tr>
+                        <th>Valor Total:</th>
+                        <td>R$670,00</td>
+                    </tr>
+                </table>
+            </div>
+            <hr>
+            <div class="message">
+                <p>O pagamento foi processado com sucesso. Agradecemos pela sua compra e esperamos que você aproveite seu produto. Sua confiança é muito importante para nós!</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Atenciosamente,</p>
+            <p><strong>Barber Shop</strong></p>
+            <p>Atendimento: <a href="tel:+5583998545986" style="color: #4caf50;">(83) 99854-5986</a></p>
+        </div>
+    </div>
+</body>
+</html>
