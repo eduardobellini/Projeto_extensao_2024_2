@@ -6,6 +6,7 @@
 Muitas pessoas querem uma facilidade maior na hora de fazer um agendamento de corte de cabelo, até mesmo fazer uma compra de produtos, esse é o intuito do nosso site.
 
  Objetivos:
+ 
 1.Facilitar agendamentos de cortes de cabelo.
 
 2. Facilitar a compra de produtos de cabelos, como maquininhas para corte, gel de cabelo, shampoos.
