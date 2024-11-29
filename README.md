@@ -50,10 +50,12 @@ JavaScript
 *Equipe:*
 
 
-   1.Francielly Ariel Brasil Pinheiro
+   1.Eduardo Bellini
 
-   2.Marinalva dos Santos
+   2.Nadson Paulo
 
-   3.Felipe Cartaxo
+   3.Pedro Gouveia
 
-   4.Luana Jessica
+   4.Marcos Wynicius
+
+   5.Gabriel Costa
