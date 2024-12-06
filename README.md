@@ -61,9 +61,11 @@ JavaScript
 
 ## Instalação
 
-Primeiramente, aperte no botão code para copiar o link e fazer o clone e o git commit dentro do viusal code, quando estiver com o código comece pelo index.html, aperte em cadastro para se cadastrar, depois clique em máquinas na tela de serviços, aperte em comprar a primeira máquina, o próximo passo é apertar em comprar, finalizar a compra e colocar seus "dados" do cartao, voce tambem pode mudar o estilo de pagamento, na parte de serviços existe a área de cortes, escolha o primeiro aperte no barbeiro Eduardo, escolha o primeiro horario e terá seu horário marcado.
+Primeiramente, aperte no botão code para copiar o link e fazer o clone e o git commit dentro do viusal code, quando estiver com o código comece pelo index.html, aperte em cadastro para se cadastrar, depois clique em máquinas na tela de serviços, aperte em comprar a primeira máquina, o próximo passo é apertar em comprar, finalizar a compra e colocar seus "dados" do cartao, voce tambem pode mudar o estilo de pagamento, na parte de serviços existe a área de cortes, escolha o primeiro aperte no barbeiro Eduardo, escolha o primeiro horario e terá seu horário marcado. 
 
-##
+## ATENÇÃO! 
+
+Em caso de duvidas sobre o codigo olhar os videos!!
 
 *Equipe:*
 
