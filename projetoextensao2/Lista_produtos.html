@@ -1,0 +1,250 @@
+<html>
+<head>
+    <title>Salão Corte Nobre</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+  body {
+    background-image: url('https://img.freepik.com/fotos-premium/ferramentas-de-barbear-no-fundo-escuro-de-madeira-copie-o-espaco_2221-5643.jpg?ga=GA1.1.1764655796.1731623677&semt=ais_hybrid');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.header .back-button {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header .status {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #00ff00;
+    color: #000;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.header .title {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.header .title h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header .title p {
+    margin: 0;
+    font-size: 16px;
+    color: #ddd;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: #333;
+}
+
+.actions i {
+    font-size: 24px;
+    color: #f5f5f5;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.actions i:hover {
+    color: #00ff00;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #00ff00;
+}
+
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.service-item:hover {
+    transform: scale(1.02);
+    background-color: #3a3a3a;
+}
+
+.service-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.service-item .details {
+    flex-grow: 1;
+}
+
+.service-item .details p {
+    margin: 0;
+}
+
+.service-item .details .code {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 5px;
+}
+
+.service-item .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ff00;
+    margin-top: 8px;
+}
+
+.service-item .buy-button {
+    background-color: #00ff00;
+    color: #000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.service-item .buy-button:hover {
+    background-color: #00cc00;
+    transform: scale(1.05);
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <i class="fas fa-arrow-left back-button"></i>
+            <div class="status">ABERTO</div>
+            <img alt="Barber shop background image" src="https://imgs.search.brave.com/oHmkQYUMQ76ps1BOQq_HLPdiwJZ4gDMrabdGyvLO_lQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI3/ODYzMTk5MC9wdC9m/b3RvL2JhcmJlci10/b29scy1vbi13b29k/ZW4tc2hlbGYtYXQt/dGhlLWJhcmJlci1z/aG9wLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz00SktOUlBR/RWdSVy0tV0NoTWxP/RG1LOGZJRlZ5cWkz/b0o2WjdtamRYUFJZ/PQ"/>
+            <div class="title">
+                <h1>Salão Corte Nobre</h1>
+                <p>João Pessoa - 5.6kms</p>
+            </div>
+        </div>
+        <div class="actions">
+            <i class="fas fa-phone"></i>
+            <i class="fas fa-map-marker-alt"></i>
+            <i class="fas fa-share-alt"></i>
+        </div>
+        <div class="services">
+            <h2>Máquinas</h2>
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquise um Serviço..."/>
+            </div>
+            <div class="service-item">
+                <img alt="Imagem da Máquina De Cortar Cabelo Wmark Ng2038 9000rpm COMPLETA" src="https://imgs.search.brave.com/WfXdVpnRXZN-MLgVXLg5v4rPjfPLeaEbi5gCK_wDQ4U/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/YXdzbGkuY29tLmJy/LzYwMHgxMDAwLzIz/MDQvMjMwNDA5NS9w/cm9kdXRvLzIzMTM3/NDA3MC81MTQ5NGM0/OC1iZTM1LTQ4NjQt/YWQ1Ni0yYTRlZWQ5/ZTE5ZTYtY3k2enF1/NmVzeC5qcGc"/>
+                <div class="details">
+                    <p>Máquina De Cortar Cabelo Wmark Ng2038 9000rpm COMPLETA</p>
+                    <p class="code">(Cód:JHUDFXGGTY)</p>
+                    <p class="price">R$ 670,00</p>
+                </div>
+                <button class="buy-button" onclick="window.location.href='Compras.html'">Comprar</button>
+            </div>
+            <div class="service-item">
+                <img alt="Imagem da Máquina De Finalização Shaver Vanish Gold Wahl 110v/220v" src="https://http2.mlstatic.com/D_NQ_NP_851078-MLU77351526991_062024-O.webp"/>
+                <div class="details">
+                    <p>Máquina De Finalização Shaver Vanish Gold Wahl 110v/220v</p>
+                    <p class="code">(Cód:JODBCLOPK0)</p>
+                    <p class="price">R$ 900,00</p>
+                </div>
+                <button class="buy-button">Comprar</button>
+            </div>
+            <div class="service-item">
+                <img alt="Imagem do Combo madeshow CORTE m10 + 2229 kemei ACABAMENTO" src="https://acdn.mitiendanube.com/stores/002/150/580/products/3630053a-7aaf-4ae3-9345-78d7c258772a1-95def8a4260d6125a416851956144201-1024-1024.webp"/>
+                <div class="details">
+                    <p>Combo madeshow CORTE m10 + 2229 kemei ACABAMENTO</p>
+                    <p class="code">(Cód:KIOYDEERS)</p>
+                    <p class="price">R$ 700,00</p>
+                </div>
+                <button class="buy-button">Comprar</button>
+            </div>
+            <div class="service-item">
+                <img alt="Imagem da Máquina Acabamento Babyliss Pro Gold Fx" src="https://images.tcdn.com.br/img/img_prod/495449/maquina_de_acabamento_babyliss_pro_gold_fx_10067_variacao_155_1_96d5514020bf4d56d4afa7dbaec1af65.jpg"/>
+                <div class="details">
+                    <p>Máquina Acabamento Babyliss Pro Gold Fx</p>
+                    <p class="code">(Cód:JKNVETJS0)</p>
+                    <p class="price">R$ 1080,00</p>
+                </div>
+                <button class="buy-button">Comprar</button>
+            </div>
+            <div class="service-item">
+                <img alt="Imagem do Secador De Cabelo Faba Superturbo 5000 Profissional" src="https://images-americanas.b2w.io/produtos/7480932619/imagens/secador-de-cabelo-onida-on-099-5000w-com-difusor-giratorio-110v-preto/7480932619_1_large.jpg"/>
+                <div class="details">
+                    <p>Secador De Cabelo Faba Superturbo 5000 Profissional</p>
+                    <p class="code">(Cód:DRETSAKE3)</p>
+                    <p class="price">R$ 200,00</p>
+                </div>
+                <button class="buy-button">Comprar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

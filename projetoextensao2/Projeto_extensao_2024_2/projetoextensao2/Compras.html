@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Carrinho</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        
+        body {
+            background-color: #3a3939;
+            color: #343a40;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #000000;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .header i {
+            font-size: 24px;
+            margin-right: 10px;
+            color: #6c757d;
+            cursor: pointer;
+        }
+
+        .header h1 {
+            font-size: 22px;
+            margin: 0;
+        }
+
+        
+        .cart-item {
+            display: flex;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f1f3f5;
+            border-radius: 10px;
+            box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .cart-item img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            border-radius: 10px;
+            border: 1px solid #dee2e6;
+        }
+
+        .cart-item-details {
+            flex-grow: 1;
+        }
+
+        .cart-item-details h2 {
+            font-size: 18px;
+            margin: 0 0 8px 0;
+            color: #212529;
+        }
+
+        .cart-item-details p {
+            font-size: 14px;
+            margin: 0 0 8px 0;
+            color: #6c757d;
+        }
+
+        .cart-item-details .price {
+            font-size: 20px;
+            font-weight: bold;
+            color: #198754;
+        }
+
+        .cart-item-details .quantity {
+            display: flex;
+            align-items: center;
+        }
+
+        .cart-item-details .quantity button {
+            background-color: #dee2e6;
+            color: #495057;
+            border: none;
+            padding: 5px 10px;
+            margin: 0 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: all 0.2s;
+        }
+
+        .cart-item-details .quantity button:hover {
+            background-color: #adb5bd;
+        }
+
+        .cart-item-details .remove {
+            font-size: 14px;
+            color: #dc3545;
+            cursor: pointer;
+        }
+
+        
+        .summary {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .summary h2 {
+            font-size: 20px;
+            margin: 0 0 20px 0;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .summary .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .summary .row input {
+            background-color: #e9ecef;
+            color: #495057;
+            border: none;
+            padding: 8px;
+            width: 120px;
+            border-radius: 5px;
+        }
+
+        .summary .row button {
+            background-color: #198754;
+            color: #ffffff;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+
+        .summary .row button:hover {
+            background-color: #157347;
+        }
+
+        .summary .total {
+            font-size: 20px;
+            font-weight: bold;
+            color: #212529;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .buttons button {
+            width: 48%;
+            padding: 15px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+
+        .buttons .checkout {
+            background-color: #198754;
+            color: #ffffff;
+        }
+
+        .buttons .checkout:hover {
+            background-color: #157347;
+        }
+
+        .buttons .continue {
+            background-color: #6c757d;
+            color: #ffffff;
+        }
+
+        .buttons .continue:hover {
+            background-color: #495057;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <i class="fas fa-arrow-left"></i>
+            <h1>Meu Carrinho (1)</h1>
+        </div>
+
+        <div class="cart-item">
+            <img src="Maquininha.png" alt="Produto">
+            <div class="cart-item-details">
+                <h2>Máquina De Cortar Cabelo Wmark Ng2038</h2>
+                <p>(Cód: JHUDFXXGTY)</p>
+                <p class="price">R$ 670,00</p>
+                <div class="quantity">
+                    <button onclick="decrementQuantity()">-</button>
+                    <span id="quantity">1</span>
+                    <button onclick="incrementQuantity()">+</button>
+                </div>
+                <p class="remove">Remover</p>
+            </div>
+        </div>
+
+        <div class="summary">
+            <h2>Resumo da Compra</h2>
+            <div class="row">
+                <span>Sub Total</span>
+                <span id="subtotal">R$670,00</span>
+            </div>
+            <div class="row">
+                <span>Cupom</span>
+                <input type="text" placeholder="Opcional">
+                <button>Aplicar</button>
+            </div>
+            <div class="row">
+                <span>Frete</span>
+                <input type="text" placeholder="CEP">
+                <button>Calcular</button>
+            </div>
+            <div class="row total">
+                <span>Total</span>
+                <span id="total">R$670,00</span>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="checkout" onclick="window.location.href='Pagamento.html'">Finalizar Compra</button>
+            <button class="continue">Continuar Comprando</button>
+        </div>
+    </div>
+
+    <script>
+        let quantity = 1;
+        const pricePerItem = 670.00;
+
+        function incrementQuantity() {
+            quantity++;
+            updateQuantity();
+        }
+
+        function decrementQuantity() {
+            if (quantity > 1) {
+                quantity--;
+                updateQuantity();
+            }
+        }
+
+        function updateQuantity() {
+            document.getElementById('quantity').innerText = quantity;
+            const subtotal = (quantity * pricePerItem).toFixed(2).replace('.', ',');
+            document.getElementById('subtotal').innerText = `R$${subtotal}`;
+            document.getElementById('total').innerText = `R$${subtotal}`;
+        }
+    </script>
+</body>
+</html>
